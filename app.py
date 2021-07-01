@@ -63,14 +63,14 @@
 # name = "jennifer"
 # print(name[1:-1])
 
-# first = "John"
-# last = "Smith"
+first = input("Enter the your first name : ")
+last = input("Enter your last name : ")
 # message = first +" ["+last+"] "+"is a coder ";
-# msg = f'{first} [{last}] is a coder ' #this is called a formated string
-# msging =f'{first} is my name' #this is called a formated string 
+msg = f'{first} [{last}] is a coder ' #this is called a formated string
+msging =f'{first} is my name' #this is called a formated string 
 # print(message)
-# print(msg)
-# print(msging)
+print(msg)
+print(msging)
 
 #printing the length of the string stored in course;
 # print(len(course));
