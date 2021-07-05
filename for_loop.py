@@ -24,4 +24,11 @@ for item4 in range(5,16):
 for item5 in range(5,16,2):
     print(item5)
 
+#### Now we are going to impose some string functionalities in the our loop print using a defined list
+cars = ["Toyota","Audi","Suzuki","Honda","BMW","McLaren","Jeep","Mercedes"]
+
+for car in cars:
+    print(f'{car} - Thats bassically a great car')
+    print(f'I cant wait for  to release another car version')
+print("Well done to every car that has passed through. Thank you so much")
 

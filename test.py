@@ -1,14 +1,35 @@
-x = "5"
-y = "10"
-print(x+y)    
+# x = "5"
+# y = "10"
+# print(x+y)    
 
-def sum(x:int,y:int):
-    print(x+y)
+# def sum(x:int,y:int):
+#     print(x+y)
 
 
-sum(3,6)
+# sum(3,6)
 
-for x in range(0,5):
-    print(x)
-    x+=1
+# for x in range(0,5):
+#     print(x)
+#     x+=1
+
+my_dictionary = {
+    "1":"one",
+    "2":"two",
+    "3":"three",
+    "4":"four",
+    "5":"five",
+    "6":"six",
+    "7":"seven",
+    "8":"eight",
+    "9":"nine",
+    "0":"zero"
+}
+
+phone_numbers=input("Phone : ")
+
+output = ""
+
+for phone in phone_numbers:
+    output += my_dictionary.get(phone,"!")+" "
+print(output)
 
